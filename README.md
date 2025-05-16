@@ -1,12 +1,46 @@
-# React + Vite
+# Hospital Appointment Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website was designed to be used by doctors and secretaries and for those conditions.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project showcases:
 
-## Expanding the ESLint configuration
+- Deleting and adding a reservation by the chosen doctor.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Content Sections:**
+  - **Home:** Displays the title of the website , the doctor cards and patients.
+  - **AddPatient:** Displays a creating reservation form for the chosen doctor.
+  - **PatientList:** Displays patients of the chosen doctor.
+
+## File Structure
+
+.
+├── public
+├── src/
+│ ├── components/
+│ │ ├── AddPatient.jsx
+│ │ └── PatientList.jsx
+│ ├── helper/
+│ │ └── Data.jsx
+│ ├── pages/
+│ │ └── Homes.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ └── main.jsx
+└── index.html
+
+## Preview
+
+Here’s a preview of the project in action:
+
+![alt text](REC-20250516174925-ezgif.com-video-to-gif-converter.gif)
+
+## Technologies Used
+
+- **USESTATE**: For updating the dom.
+- **REACT-ICONS**: For implementing icons.
+- **REACT**: For structuring the content.
+- **CSS**: For styling.

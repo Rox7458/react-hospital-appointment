@@ -15,7 +15,6 @@ body {
   font-family: "Poppins", sans-serif;
 
   background-image: url("https://wallpapers.com/images/hd/white-old-paper-with-dark-stains-tlxzuvap31mxywve-tlxzuvap31mxywve.webp");
-  background-repeat: no-repeat;
   background-size: cover;
 }
 .container {
@@ -29,19 +28,16 @@ body {
 }
 
 .header {
-  
   margin: 1rem;
 }
-/* doktor resimleri  */
+
 .doctorBtn {
   border: none;
   cursor: pointer;
- /* outline: none; */
   padding: 1rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
-
 
 /* ilk sayfadaki 4 doktor resmi ve isimlerinin div i*/
 .dr {
@@ -50,9 +46,9 @@ body {
   justify-content: center;
 }
 /* 2. sayfadaki kayıt oluştur butonu */
-.kayitBtn {
+.saveBtn {
   color: #fff;
- text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -116,11 +112,4 @@ body {
 }
 .doctorBtn + h4 {
   padding: 10px 20px;
-/* doctorBtn className li img den sonraki h4 doktor isimleri */
-  
 }
-
-
-
-
-

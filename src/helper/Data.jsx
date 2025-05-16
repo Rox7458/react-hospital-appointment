@@ -1,4 +1,4 @@
-export const hastaData = [
+export const patientData = [
   {
     id: 1,
     patientName: "Yavuz Selim",
