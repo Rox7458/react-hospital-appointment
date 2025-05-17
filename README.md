@@ -17,7 +17,6 @@ This project showcases:
 
 ## File Structure
 
-.
 ├── public
 ├── src/
 │ ├── components/
