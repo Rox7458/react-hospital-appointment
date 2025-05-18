@@ -16,7 +16,9 @@ This project showcases:
   - **PatientList:** Displays patients of the chosen doctor.
 
 ## File Structure
+006 - Task Tracker (folder)
 
+SOLUTION
 ├── public
 ├── src/
 │ ├── components/
@@ -30,6 +32,8 @@ This project showcases:
 │ ├── App.jsx
 │ └── main.jsx
 └── index.html
+
+
 
 ## Preview
 
